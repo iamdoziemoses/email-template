@@ -1,0 +1,114 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-size: 62.5%;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(man.jpg);
+  padding: 20rem 0 20rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+.hero-section h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.email-text {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.email-text p {
+  font-size: 2rem;
+  width: 80%;
+  color: rgb(109, 101, 101);
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.email-text img {
+  border-radius: 0.2rem;
+}
+
+.cta-button {
+  border: none;
+  padding: 1.4rem 1.5rem;
+  width: 20rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #1d49e2;
+  color: white;
+  border-radius: 0.8rem;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+
+.cta-button:hover {
+  background-color: #e2b61d;
+}
+
+.footer {
+  margin-top: 2rem;
+  background-color: #222;
+  padding: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.footer-data p {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer-data h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.icon:hover {
+  color: #e2b61d;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .email-text {
+    padding: 2rem;
+  }
+
+  .email-text p {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  .email-text img {
+    max-width: 100%;
+  }
+}
